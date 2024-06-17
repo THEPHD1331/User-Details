@@ -13,6 +13,7 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql= true
 ```
 - After completing above steps run the main file named UserDetailsApplication.java
+- Username and Password for accessing endpoints are specified in application.properties file.
 
 # Snapshots
 1. Secured API Endpoints with basic security
