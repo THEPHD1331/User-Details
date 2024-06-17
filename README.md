@@ -1,6 +1,19 @@
 # User Details 
 An application in Spring Boot consisting of two APIs - Registering User and Display User Details by Username.
 
+## How to run
+- Install jdk-17 or above in the system.
+- Open this project in any Java suitable IDE and let all the dependencies download.
+- Configure datasource (In my case MySQL) info in application.properties file inside resource folder.
+```
+spring.datasource.url= jdbc:mysql://localhost:3306/<db-name>
+spring.datasource.username= <username>
+spring.datasource.password= <password>
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql= true
+```
+- After completing above steps run the main file named UserDetailsApplication.java
+
 # Snapshots
 1. Secured API Endpoints with basic security
 
